@@ -12,9 +12,9 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author abigailsoto
  */
-public class PruebasCalculos {
+public class TestPruebasCalculos {
     
-    public PruebasCalculos() {
+    public TestPruebasCalculos() {
     }
    Calculos instancia=new Calculos ();
    @Test
