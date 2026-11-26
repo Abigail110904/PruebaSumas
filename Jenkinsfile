@@ -32,7 +32,7 @@ pipeline{
       }
       stage('Empaquetado'){
         steps{
-            archiveArtifacts artifacts: 'CalculadoraBasia/target/*.jar', fingerprint:true
+            archiveArtifacts artifacts: 'CalculadoraBasica/target/*.jar', fingerprint:true
         }
       }  
    }
