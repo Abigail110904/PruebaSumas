@@ -1,5 +1,7 @@
 pipeline{
-   agent any
+   agent {
+      'built-in'
+   }
    tools{
       maven 'devops_maven'
    }
